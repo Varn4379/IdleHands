@@ -1,0 +1,45 @@
+<link rel="stylesheet" type="text/css" href="interface.css" />
+<ul id="tabs">
+	<li><a href="#Mana-tab">Mana</a></li>
+	<li><a href="#Options">Options</a></li>
+</ul>
+
+<div class="panel res" id="Mana-tab">
+    <h2>Mana Generation</h2>
+<div class="panel robot">
+    Total Mana: <span id="mana">0</span><br />
+    <button class="build" id="meditate">Meditate</button>
+</div>
+
+<div class="panel robot">
+    Mana Seed: <span id="seed">0</span><br />
+    <span class="info">Gives 1 Mana / s</span><br />
+    <button class="build" id="build-seed">Build (10)</button>
+</div>
+<div class="panel robot">
+    Mana Flower: <span id="flower">0</span><br />
+    <span class="info">Gives 1 Mana Seed / s</span><br />
+    <button class="build" id="build-flower">Build (100)</button>
+</div>
+<div class="panel robot">
+    Mana Vine: <span id="vine">0</span><br />
+    <span class="info">Gives 1 Mana Flower / s</span><br />
+    <button class="build" id="build-vine">Build (1000)</button>
+</div>
+</div>
+
+
+<div class="panel robot" id="Options">
+    <h2>I/O</h2>
+<div class="panel robot">
+    <button class="build" id="manual-save">Save Game</button>
+</div>
+<div class="panel robot">
+    <button class="build" id="manual-load">Load Game</button>
+</div>
+<div class="panel robot">
+    <button class="build" id="wipe-save">Wipe Save</button>
+</div>
+</div>
+
+<script type="text/javascript" src="main.js"></script>
